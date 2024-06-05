@@ -1,0 +1,11 @@
+ClearOutput();
+EchoOff();
+xlStart();
+xlNewWorkbook();
+xlSetValue(3,4,345);
+xlSetTextStyle(1,1,5,1,1);
+xlSetFillColor(1,1,5,1,500,300,150);
+xlSetBorder(1,1,5,1,1,1,3,0,0,0);
+xlSaveWorkbookAs('E:\Book1.xlsx');
+xlCloseWorkbook();
+xlTerminate();
